@@ -33,13 +33,14 @@ canvas {
     position: absolute;
     z-index: 10;
     text-align: center;
-
+	cursor: -webkit-grab; cursor: grab;
   }
   
 #mydivheader {
     padding: 20px;
     cursor: move;
     z-index: 10;
+	cursor: -webkit-grab; cursor: grab;
   }
 
 img{
