@@ -26,7 +26,7 @@ function Confetti () {
 
   this.color = colours[Math.floor(colours.length * Math.random())];
 
-  this.speed = this.size/7;
+  this.speed = this.size/14;
   
   this.opacity = Math.random();
 
