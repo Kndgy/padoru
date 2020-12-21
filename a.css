@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  width: 100vw;
+	height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  font-family: 'Helvetica';
+  line-height: 75vh;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #000000;
+  text-align: center;
+  font-size: 40;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+
+  }
+  
+#mydivheader {
+    padding: 20px;
+    cursor: move;
+    z-index: 10;
+  }
+
+img{
+    width: 50%;
+}
+
+  canvas {
+      z-index: 1;
+}
+
+@media (orientation: portrait){
+  body{
+    overflow-x: hidden;
+  }
+  img{
+    width: 30%;
+    
+  }
+  h1{
+    font-size: 20px;
+  }
+}
