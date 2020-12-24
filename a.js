@@ -17,7 +17,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "PADORU PADORU";
+    document.getElementById("demo").innerHTML = padoru();
   }
 }, 1000);
 
