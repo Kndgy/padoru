@@ -1,5 +1,7 @@
 # padoru
 
+vanilla javascript
+
 silly padoru website i made just for fun
 
 fireworks will pop when the countdown timer is up(i forgot to implement the fireworks)
