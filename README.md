@@ -1,6 +1,6 @@
 # padoru
 
-silly padoru timer i made just for fun
+silly padoru website i made just for fun
 
 fireworks will pop when the countdown timer is up
 
